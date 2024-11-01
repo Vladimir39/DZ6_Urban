@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: none;
+  border: none;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  background: linear-gradient(90deg, #ff0000, #ff8c00, #ffd000);
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  height: 80px;
+  box-shadow: 1px 1px 4px red;
+  margin-bottom: 50px;
+}
+
+.header h1 {
+  padding: 20px;
+  font-weight: 900;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aside {
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  height: 150px;
+  box-shadow: 1px 1px 4px rgb(105, 105, 105);
+}
+
+.aside h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.form input,
+button {
+  display: block;
+  height: 40px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 95%;
+  cursor: pointer;
+  border: 2px solid rgb(105, 105, 105);
+  border-radius: 5px;
+}
+
+.btn {
+  width: 80%;
+  background-color: black;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #ff8c00;
+  transition: 0.2s ease-in;
+}
+
+.section {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70%;
+
+  box-shadow: 1px 1px 4px rgb(105, 105, 105);
+}
+
+.section h2 {
+  text-align: center;
+  margin: 20px 0;
+  background: #ff00000a;
+  border-radius: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.btnBlock {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.taskList {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  gap: 45px;
+}
+
+article {
+  position: relative;
+  border: 1px solid #ff8c00;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px rgb(105, 105, 105);
+}
+
+.checkIcon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.checkIcon svg {
+  color: rgba(100, 100, 100, 0.24);
+}
+
+.checkIcon svg:hover {
+  color: rgb(0, 255, 13);
+  transform: scale(1.1);
+}
+
+.checkIconActive svg {
+  color: rgb(0, 255, 13);
+}
+
+.deleteIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.deleteIcon svg {
+  color: #ff0000;
+}
+.deleteIcon:hover {
+  transform: scale(1.1);
+}
+
+.hidden {
+  display: none;
+}
+
+article h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+article p {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+article span {
+  text-align: center;
+  margin-bottom: 20px;
+}
